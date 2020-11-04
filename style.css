@@ -8,12 +8,12 @@ body{
   width: 100vw;
   height: 100vh;
   background: #0c0c0c;
-  padding: .5rem;
+  padding: 1rem;
   font-family: 'Nunito ';
 }
 
 h1.title-page {
-  font-size: 2rem;
+  font-size: 5rem;
   margin-bottom: 1rem;
   color: white;
 }
@@ -21,28 +21,29 @@ h1.title-page {
 .todo-title-input,
 .todo-desc-input,
 .add-btn{
-  padding: 1rem;
+  padding: 2rem;
   border: none;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+  font-size: 2.5rem;
 }
 
 .todo-desc-input,
 .todo-title-input {
-  border-radius: .5rem 0 0 .5rem;
-  width: 87%;
+  border-radius: 1rem 0 0 1rem;
+  width: 90%;
   background: #171717;
   box-shadow: 0 10px 15px #0000007c;
   color: #444;
 }
 
 .todo-title-input {
-  width: 99%;
-  border-radius: .5rem;
-  margin-bottom: .5rem;
+  width: 99.5%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
 }
 
 .add-btn {
-  border-radius: 0px .5rem .5rem 0px;
+  border-radius: 0px 1rem 1rem 0px;
   background: linear-gradient(45deg, #ef6363, #f48855);
   color: white;
   font-weight: 900;
@@ -52,19 +53,19 @@ h1.title-page {
 
 .todo {
   background: #000000;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 1rem;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
   position: relative;
   box-shadow: 0 10px 15px #0000007c;
   transition: .5s;
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 4rem;
   font-weight: 900;
   color: white;
 }
@@ -73,28 +74,30 @@ h1.title-page {
   font-weight: 400;
   color: #666;
   background: #0c0c0c;
-  border-radius: .5rem;
-  padding: 1rem .5rem;
-  margin: .5rem 0;
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  margin: 1rem 0;
+  font-size: 3rem;
 }
 
 .buttons {
   display: flex;
   justify-content: flex-end;
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 2rem;
+  right: 2rem;
 }
 
 .buttons button {
-  width: 25px;
-  height: 25px;
+  width: 60px;
+  height: 60px;
   border: none;
   border-radius: 50%;
-  margin-left: .5rem;
+  margin-left: 1rem;
 }
 
 button i {
+  font-size: 1.5rem;
   color: white;
 }
 

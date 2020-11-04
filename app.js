@@ -27,15 +27,16 @@ function renderTodos() {
   var todoTitle = document.createElement('p');
   todoTitle.innerText = todo.title;
   todoTitle.classList.add('title');
+  todoDiv.appendChild(todoTitle);
 
   // Add Description
-  var todoDesc = document.createElement('p');
-  todoDesc.innerText = todo.description;
-  todoDesc.classList.add('description');
-
-  todoDiv.appendChild(todoTitle);
-  todoDiv.appendChild(todoDesc);
-  
+  if(todo.description != '') {
+    var todoDesc = document.createElement('p');
+    todoDesc.innerText = todo.description;
+    todoDesc.classList.add('description');
+    todoDiv.appendChild(todoDesc);
+  }
+ 
   createButtons(todo, todoDiv);
 
   todoList.appendChild(todoDiv);
@@ -110,3 +111,4 @@ function createButtons(todo, todoDiv) {
   
   todoDiv.appendChild(buttonsDiv);
 }
+
